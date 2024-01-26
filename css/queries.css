@@ -107,6 +107,7 @@
 
     .btn-mobile-nav {
         display: block;
+        z-index: 9999;
     }
 
     .main-nav {
@@ -196,7 +197,7 @@
 
     .grid--2-cols,
     .grid--3-cols,
-    .grid--4-cols {
+    .grid--4-cols, .testimonials-container {
         grid-template-columns: 1fr;
         text-align: center;
     }
